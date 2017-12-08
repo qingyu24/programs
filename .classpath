@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/.svn/**" kind="src" path="src"/>
+	<classpathentry excluding="**/.svn/**" kind="src" path="JAR_LOC">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="JAR_LOC/jar"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="tools"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_80"/>
+	<classpathentry kind="lib" path="jar/mysql-connector-java-5.1.20-bin.jar"/>
+	<classpathentry kind="lib" path="jar/javassist.jar"/>
+	<classpathentry kind="lib" path="jar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="jar/jxl.jar"/>
+	<classpathentry kind="lib" path="jar/ServerCore.jar"/>
+	<classpathentry kind="lib" path="jar/linq4j-0.5-SNAPSHOT.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: logic.MyRoot
+Class-Path: jar\core_src.jar jar\javassist.jar jar\jxl.jar jar\log4j-1.2.17.jar jar\mysql-connector-java-5.1.20-bin.jar

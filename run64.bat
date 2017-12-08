@@ -1,0 +1,1 @@
+java.exe -Xmx4g -Xms4g -Xloggc:gc.log -XX:+UseCompressedOops -server -jar server.jar

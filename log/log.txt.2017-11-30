@@ -1,0 +1,187 @@
+0 2017-11-30 21:52:19 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+6 2017-11-30 21:52:19 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+186 2017-11-30 21:52:19 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+515 2017-11-30 21:52:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+578 2017-11-30 21:52:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+633 2017-11-30 21:52:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+652 2017-11-30 21:52:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+735 2017-11-30 21:52:20 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+790 2017-11-30 21:52:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+876 2017-11-30 21:52:20 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+1078 2017-11-30 21:52:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/TestCardConfig.xls]
+1244 2017-11-30 21:52:20 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@4636afba [ID:0] NextRunTime[1512049941109] Run[logic.module.login.Login@304b0059] SpaceTime[200]]
+1259 2017-11-30 21:52:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1367 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+1368 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+1368 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+1369 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1369 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1370 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+1371 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+1371 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+1372 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+1372 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+1372 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+1374 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+1374 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+1377 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+1377 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1413 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+1414 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+1414 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+1415 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+1415 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+1541 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+1548 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,29][RoomImpl,SendPiao]
+1557 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,38][RoomImpl,TestJieSuan]
+1562 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,41][RoomImpl,cenceldis]
+1564 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,40][RoomImpl,AutoCard]
+1565 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,31][RoomImpl,GetList]
+1566 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,35][RoomImpl,GetYou]
+1567 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+1568 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+1569 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+1569 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+1569 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+1570 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+1571 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+1571 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+1572 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+1572 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+1572 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+1573 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+1573 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+1573 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+1574 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+1575 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+1596 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+1597 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+1599 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+1599 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+1600 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+1600 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+1600 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+1601 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+1711 2017-11-30 21:52:21 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@2ebeb60 [ID:1] NextRunTime[1512049942375] Run[core.ex.GatherInfo@4ea9ed1f] SpaceTime[1000]]
+2669 2017-11-30 21:52:22 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@753bb696 [ID:2] NextRunTime[1512050100334] Run[logic.loader.UserLoader@23506dfb] SpaceTime[158000]]
+2965 2017-11-30 21:52:22 [GlobalLog] SYSTEM_INFO #用时[264] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@25284f3b: SELECT * FROM account]
+2965 2017-11-30 21:52:22 [GlobalLog] SYSTEM_INFO #读取到[1284]条数据
+2973 2017-11-30 21:52:22 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+2977 2017-11-30 21:52:22 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+2985 2017-11-30 21:52:22 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+2985 2017-11-30 21:52:22 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+3014 2017-11-30 21:52:22 [GlobalLog] DEBUG [0]*牌的操记录:0 : 删除掉了会儿皮:三条[12-1-3]
+
+0 2017-11-30 21:55:25 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+9 2017-11-30 21:55:25 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+222 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+313 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+357 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+385 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+387 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+464 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+466 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+543 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+672 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/TestCardConfig.xls]
+717 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@43fa92be [ID:0] NextRunTime[1512050126806] Run[logic.module.login.Login@77b81acf] SpaceTime[200]]
+721 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+787 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+788 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+789 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+789 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+790 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+790 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+791 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+791 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+792 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+792 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+793 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+793 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+794 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+797 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+797 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+798 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+799 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+799 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+799 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+799 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+812 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+815 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+815 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+819 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+819 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+820 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,35][RoomImpl,GetYou]
+820 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+821 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+822 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,31][RoomImpl,GetList]
+822 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+823 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+823 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+824 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+824 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+824 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+825 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+825 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,29][RoomImpl,SendPiao]
+826 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,38][RoomImpl,TestJieSuan]
+827 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,40][RoomImpl,AutoCard]
+827 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[1,41][RoomImpl,cenceldis]
+827 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+827 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+829 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+830 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+831 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+831 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+832 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+834 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+835 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+836 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+836 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+927 2017-11-30 21:55:26 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@7cde5f11 [ID:1] NextRunTime[1512050127816] Run[core.ex.GatherInfo@6b339522] SpaceTime[1000]]
+2636 2017-11-30 21:55:28 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@4c500a2 [ID:2] NextRunTime[1512050317525] Run[logic.loader.UserLoader@21ac8e20] SpaceTime[189000]]
+2885 2017-11-30 21:55:28 [GlobalLog] SYSTEM_INFO #用时[221] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@20956b3c: SELECT * FROM account]
+2886 2017-11-30 21:55:28 [GlobalLog] SYSTEM_INFO #读取到[1284]条数据
+2890 2017-11-30 21:55:28 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+2890 2017-11-30 21:55:28 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+2891 2017-11-30 21:55:28 [GlobalLog] DEBUG [0]*牌的操记录:0 : 删除掉了会儿皮:三条[12-1-3]
+
+2916 2017-11-30 21:55:28 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+2916 2017-11-30 21:55:28 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+23143 2017-11-30 21:55:49 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+23144 2017-11-30 21:55:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年11月30日 21时55分49秒
+23144 2017-11-30 21:55:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:1111] 2017年11月30日 21时55分49秒
+23146 2017-11-30 21:55:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:1111] 2017年11月30日 21时55分49秒
+23147 2017-11-30 21:55:49 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年11月30日 21时55分49秒
+23146 2017-11-30 21:55:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年11月30日 21时55分49秒
+23148 2017-11-30 21:55:49 [GlobalLog] SYSTEM_INFO #线程正常停止[[20,NET]] 2017年11月30日 21时55分49秒
+25148 2017-11-30 21:55:51 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年11月30日 21时55分51秒
+25148 2017-11-30 21:55:51 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@2da0c8ee UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年11月30日 21时55分51秒
+25648 2017-11-30 21:55:51 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@2da0c8ee UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年11月30日 21时55分51秒
+25649 2017-11-30 21:55:51 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年11月30日 21时55分51秒
+25649 2017-11-30 21:55:51 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年11月30日 21时55分51秒
+25649 2017-11-30 21:55:51 [GlobalLog] SYSTEM_INFO #系统正在保存全局数据[account] 一共有[1284]条数据
+25680 2017-11-30 21:55:51 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年11月30日 21时55分51秒
+26681 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年11月30日 21时55分52秒
+26682 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年11月30日 21时55分52秒
+26682 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[21,LOGIC]] 2017年11月30日 21时55分52秒
+26683 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年11月30日 21时55分52秒
+26684 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年11月30日 21时55分52秒
+26685 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年11月30日 21时55分52秒
+26686 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,SQL]] 2017年11月30日 21时55分52秒
+26686 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年11月30日 21时55分52秒
+26686 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年11月30日 21时55分52秒
+26768 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年11月30日 21时55分52秒
+26769 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,SQLLOG]] 2017年11月30日 21时55分52秒
+26769 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年11月30日 21时55分52秒
+26772 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年11月30日 21时55分52秒
+26873 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年11月30日 21时55分52秒
+26874 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,THREADTASK]] 2017年11月30日 21时55分52秒
+26875 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年11月30日 21时55分52秒
+26875 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年11月30日 21时55分52秒
+26876 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:11111] 2017年11月30日 21时55分52秒
+26877 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:11111] 2017年11月30日 21时55分52秒
+26877 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年11月30日 21时55分52秒
+26878 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,GMNET]] 2017年11月30日 21时55分52秒
+26878 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年11月30日 21时55分52秒
+26879 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年11月30日 21时55分52秒
+26880 2017-11-30 21:55:52 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年11月30日 21时55分52秒
+27880 2017-11-30 21:55:53 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年11月30日 21时55分53秒

@@ -1,0 +1,18 @@
+对数据库的支持,目前支持的是mysql,支持的类型有short,int(自增长),long(自增长),float,varchar,blob(tiny),blob,datetime
+
+DBAutoInt	=>	int 自增长
+DBAutoLong	=>	long 自增长
+DBBuffer	=>	blob
+DBDataTime	=>	datetime
+DBFloat		=>	float
+DBInt		=>	int
+DBLong		=>	long
+DBShort		=>	small int
+DBString	=>	varchar
+DBTinyBuffer=>	tiny blob
+DBUniqueLong=>	long
+
+可以使用DBMgr来读写数据库
+
+注意CreateRoleData函数创建的是内存数据,所使用的结构都需要从RoleDataBase派生
+当对role数据进行存盘时,如果发现GID那么会以GID为key进行update,没有则以RoleID为key进行update

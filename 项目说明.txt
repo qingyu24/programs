@@ -1,0 +1,9 @@
+data	放置项目的配置文件
+exjar	放置动态加载的jar文件,目前是服务器调试时用的显示界面
+jar	项目必须的jar文件
+	javassist.jar				用来提取网络接口的参数,用来生成我们的_ConnectionManager.cs文件和test/test/robot/RFCFn.java文件
+	jxl.jar					用来提高读取excel文件的功能
+	log4j-1.2.17.jar			用来输出日志
+	mysql-connector-java-5.1.20-bin.jar	用来和MySQL连接
+src	代码
+test	测试代码

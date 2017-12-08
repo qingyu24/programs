@@ -1,0 +1,1 @@
+java.exe -Xmx1g -Xms500m -jar server.jar

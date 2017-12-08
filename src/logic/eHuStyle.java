@@ -1,0 +1,14 @@
+package logic;
+
+public enum eHuStyle {
+	PINGHU,
+	ZIMO,
+	DIANPAO,
+	SHISANYAO,
+	QIDUI,
+	QINGYISE,
+	YITIAOLONG,
+	QIANGGANGHU,
+	HAIDILAOYUE,
+	
+}
